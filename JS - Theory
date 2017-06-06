@@ -14,3 +14,5 @@ Arrays
 
 1) addelements at end:- push
 2) add at beginning  :- unshift
+3) pop :- remove and return the last item in array;
+4) shift :- removes first item and returns
