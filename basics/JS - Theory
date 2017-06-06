@@ -8,3 +8,9 @@ document.write
 all java_script code needs to placed in scripts tag
 
 We can use Mozilla Developer Network for documentation
+
+
+Arrays
+
+1) addelements at end:- push
+2) add at beginning  :- unshift
