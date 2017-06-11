@@ -60,4 +60,37 @@ document.write(person['name']);
 document.write(person.name);
 
 
+const
+
+value of the variabke does not change. cannot override this value
+
+
+when dealing with arrays and objects, we can push or add attributes to object, but we cannot reassign the object 
+let 
+
+
+let 
+
+we can reassign variable
+
+var versus let
+
+let has block level scoping
+
+arrow function
+
+const  sayName = () => {
+    const message = "My name is " + name;
+    console.log(message);
+}
+
+sayName();
+
+const  square1 = (x) => {
+    console.log(x*x);
+}
+
+square1(10);
+
+
 
