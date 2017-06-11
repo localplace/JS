@@ -16,3 +16,48 @@ Arrays
 2) add at beginning  :- unshift
 3) pop :- remove and return the last item in array;
 4) shift :- removes first item and returns
+
+
+----------------------------------------------------------
+
+Arrays 
+
+concat
+var currentStudents = ['Joan','John'];
+var newStudents = ['Stu1','Stu2'];
+var allStudents = currentStudents.concat(newStudents);
+
+join
+var daysInWeek = ['Monday','Tuesday'];
+var dayString = dayInWeek.join(',');
+console.log(dayString);
+
+indexOf Method
+var fruit = ['Apple', 'Orange', 'GrapeFruit'];
+
+indexOf = -1, if item is not present
+indexOf returns which index its present in.
+
+var grades = [ [80, 90, 100, 95],
+			   [75, 95, 85, 100],
+			   [60, 80, 77, 90]
+			   ];
+
+			   grades[0];
+			   grades[1];
+			   grades[2];
+
+			   grades[0][3] = 95
+
+
+var person = {
+  name : "Malathi",
+  address : "Earth",
+  todolist : ["One" ,"Two" ,"Three"]
+};
+
+document.write(person['name']);
+document.write(person.name);
+
+
+
