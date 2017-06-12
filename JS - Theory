@@ -92,5 +92,33 @@ const  square1 = (x) => {
 
 square1(10);
 
+const  square1 = (x,y) => {
+    console.log(x*y);
+}
+
+sayName();
+square1(10,12);
 
 
+Interactivity in JS
+
+a) Selecting elements on page
+b) Manipulating elements
+c) Listening for user action.
+
+//note location.href :- to get current url
+
+window object contains all the global objects such as alert, prompy etc 
+window.alert("Hi");
+
+
+//document object, we can manipulate objects on the currently loaded web page .
+
+document.getElementById("myHeading").style.color = "purple";
+
+document.getElementById("myHeading").style.backgroundColor = "yellow";
+
+
+//DOM :- Document Object Model
+
+DOM :- representation of the webpage , tree like strcuture.
