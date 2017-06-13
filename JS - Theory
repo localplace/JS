@@ -122,3 +122,9 @@ document.getElementById("myHeading").style.backgroundColor = "yellow";
 //DOM :- Document Object Model
 
 DOM :- representation of the webpage , tree like strcuture.
+
+// document.getElementsByTagName(); -> returns a collection of elements.
+
+
+
+
