@@ -125,6 +125,23 @@ DOM :- representation of the webpage , tree like strcuture.
 
 // document.getElementsByTagName(); -> returns a collection of elements.
 
+// document.getElementsByClassName(); -> select elements with the same class name.
+
+const c= document.getElementsByTagName("body")[0];
+
+
+//Query Selector and 
+
+document.querySelector();
+
+document.querySelectorAll("li");
+//we can select based on id, or based on tag
+
+document.querySelectorAll("#myButton");
+
+//or class 
+
+document.querySelectorAll(".myClass");
 
 
 
