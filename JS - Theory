@@ -127,21 +127,45 @@ DOM :- representation of the webpage , tree like strcuture.
 
 // document.getElementsByClassName(); -> select elements with the same class name.
 
-const c= document.getElementsByTagName("body")[0];
+
+---------------------------------------------
+
+1) Element.textContent
+
+document.getElementById("myHeading").textContent);
+document.querySelector("h1").textContent
+document.querySelector("#myHeading").textContent
 
 
-//Query Selector and 
+//change heading text
+document.getElementById("myHeading").textContent = "ok";
+"oj"
+2) Element.innerHtml
 
-document.querySelector();
+let ul = document.querySelector("ul");
+ul.innerHTML;
+"
+      <li>grapes</li>
+      <li>amethyst</li>
+      <li>lavender</li>
+      <li>plums</li>
+    "
 
-document.querySelectorAll("li");
-//we can select based on id, or based on tag
+3) Element.Attribute
 
-document.querySelectorAll("#myButton");
+let r1 = document.querySelector("input");
 
-//or class 
+console.log(r1.attributes);
+VM886:1 NamedNodeMap {0: type, 1: class, length: 2}
+console.log(r1.getAttribute("type"));
+text 
 
-document.querySelectorAll(".myClass");
+r1.type = "checkbox";
+
+
+-----------------------------------------------
+
+We can set inline styles in the styles attribute 
 
 
 
