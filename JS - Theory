@@ -166,6 +166,11 @@ r1.type = "checkbox";
 -----------------------------------------------
 
 We can set inline styles in the styles attribute 
+document.createElement("p"); 
+----------------
+
+addding class element 
+Node.appendChild(childElement);
 
 
 
